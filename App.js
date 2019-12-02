@@ -1,9 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 
 export default function App() {
   return (
-    <View style={{}}> 
+    <View style={{padding: 10}}> 
       <View>
         <TextInput />
         <Button title="ADD" />
